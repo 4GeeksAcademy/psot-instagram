@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", sans-serif; **/
+body{
+  background-color: black;
+}
+
+.post {
+  max-width: 35%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+  height: 95vh;
+}
+
+.post-header{
+  /*border: 2px solid red;*/
+  padding: 5px 10px;
+  font-family: "Roboto", sans-serif;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.header-left {
+   /*border: 2px solid red;*/
+  display: flex;
+  align-items: center;
+}
+
+.fa-brands.fa-instagram{
+
+  margin-right:5px;
+  font-size: 35px;
+  
+}
+
+.title-text {
+
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.title-text h1 {
+  font-size:16px;
+  margin:0;
+}
+.title-text h2{
+  font-size: 13px;
+  margin:0;
+}
+.fa-solid.fa-ellipsis-vertical {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.post-image { 
+  /*border: 2px solid red;*/
+  max-width: 100%;  
+}
+img{
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height:auto;
+}
+.post-body { 
+  /*border: 2px solid red;*/
+  padding:5px 10px;  
+  display:flex;
+  justify-content: space-between;
+ 
+}
+
+.icons-left{
+  cursor:pointer;
+  font-size: 25px;
+  padding-top:5px; 
+  display:flex;
+  padding-left: 0;
+ 
+
+}
+
+.fa-regular.fa-bookmark{
+  font-size: 25px;
+  cursor: pointer;
+  padding-top:5px; 
+  display:flex;
+  margin-right: 0;
+}
+.text{
+  display:block;
+
+}
+.liked-text{
+  font-family: "Roboto", sans-serif; 
+  padding-left: 13px;
+}
+.description{
+  font-family: "Roboto", sans-serif;
+  padding-left: 13px;
+  padding-bottom: 5px;
+  text-align: justify;
+  margin-right: 25px;
+}
